@@ -3,6 +3,9 @@
   "description": "manage meetings more effectively",
   "version": "0.0.1",
   "manifest_version": 2,
+  "permissions": [
+    "identity"
+  ],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
